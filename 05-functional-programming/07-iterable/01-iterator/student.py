@@ -1,4 +1,4 @@
-class IncluseRange:
+class InclusiveRange:
     def __init__(self, start, end):
         self.__start = start
         self.__end = end
@@ -9,7 +9,7 @@ class IncluseRange:
 
 class InclusiveRangeIterator:
     def __init__(self, start, end):
-        self.__start = start
+        self.__current = start
         self.__end = end
 
     def __iter__(self):
